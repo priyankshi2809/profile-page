@@ -25,10 +25,11 @@ header p {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 1.25em 0;
   list-style-type: none;
   font-size: 1.125rem;
   display: flex;
+  justify-content: center;
 }
 
 nav a,
@@ -48,9 +49,8 @@ nav a:focus {
 section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin: 0;
-  padding: 2rem 0;
+  gap: 1.5rem;
+  margin: 0 auto;
   border: 1px solid #ccc;
 
 }
@@ -63,4 +63,21 @@ section {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.my-work{
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.about-me{
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 1080px;
 }
