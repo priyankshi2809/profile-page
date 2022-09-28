@@ -15,8 +15,9 @@ img {
 }
 
 
-h1, h2, a {
+h1 {
   font-family: 'Fira Sans', sans-serif;
+  text-align: center;
 }
 
 header p {
@@ -47,10 +48,6 @@ nav a:focus {
 }
 
 section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1.5rem;
-  margin: 0 auto;
   border: 1px solid #ccc;
 
 }
@@ -59,7 +56,7 @@ section {
   width: 100%;
   background-color: #808000;
   height: 80vh;
-  background-image: url("../images/F85F6575-A4B9-4A03-9E81-B5B01F6F5115_1_105_c.jpeg");
+  background-image: url("../images/topimage.jpeg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -79,5 +76,30 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5rem;
-  max-width: 1080px;
+}
+
+div > img{
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}
+
+.aboutme {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+footer{
+  background-color: #000000;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
 }
